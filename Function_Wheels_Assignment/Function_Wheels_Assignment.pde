@@ -24,15 +24,12 @@ void draw () {
 rain();
 
 
-wheels();
+car();
 
 translate (-500,0);
-wheels();
+car();
 
-fill(243, 243, 10);
-  rect(width/2 + 67, CircleY - 80, 200, 400);
-  fill(0,0,100);
-  rect(567, CircleY + 55, 200, 80);
+
   
 
   CircleY = CircleY + speedY;
